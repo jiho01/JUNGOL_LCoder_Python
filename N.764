@@ -1,0 +1,10 @@
+#동물과 동물의 울음소리를 3번 입력 받아, 출력 예시와 같이 '(동물이름) sounds (울음소리).' 형식으로 서식 문자를 이용하여 출력하는 프로그램을 작성하라.
+a=input()
+b=input()
+c=input()
+aname,asound=a.split(' ')
+bname,bsound=b.split(' ')
+cname,csound=c.split(' ')
+print('{} sounds {}.'.format(aname,asound))
+print('{} sounds {}.'.format(bname,bsound))
+print('{} sounds {}.'.format(cname,csound))
