@@ -1,0 +1,6 @@
+#N.762
+a=input()
+b=input()
+Cname,Cage=a.split(' ')
+Mname,Mage=b.split(' ')
+print(Cname,'age','+',Mname,'age','=',int(Cage)+int(Mage))
