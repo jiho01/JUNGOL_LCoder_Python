@@ -1,0 +1,5 @@
+#'Python', 'is', 'exciting' 세 문자열로 이루어진 리스트를 만들고, 다음과 같이 출력(Python is exciting)하는 프로그램을 작성하라.
+
+list=['Python', 'is', 'exciting']
+for i in range(3):
+    print(list[i],end=' ')
