@@ -1,0 +1,8 @@
+#리스트를 하나 만들어 [1, 2]로 초기화하고, 추가로 정수를 하나 더 입력 받아 리스트 끝에 추가한 후 역순으로 출력하는 프로그램을 작성하시오.
+
+list=[1, 2]
+a=int(input())
+list.append(a)
+list.reverse()
+for i in range(3):
+    print(list[i])
