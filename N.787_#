@@ -1,0 +1,12 @@
+#원소 6개짜리 리스트를 입력받아 생성한 후, 홀수 번째 원소가 앞으로 오고 짝수 번째 원소가 뒤로 오도록 리스트를 재구성하여 출력하는 프로그램을 작성하시오.
+#문제의 의도와 다르게 푼 듯.
+
+list1=list()
+list2=list()
+for i in range(3):
+    a=input('Element? ')
+    list1.append(a)
+    b=input('Element? ')
+    list2.append(b)
+           
+print(list1+list2)
