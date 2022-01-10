@@ -1,0 +1,9 @@
+#한 줄에 리스트를 입력 받아, 3의 배수(3, 6, 9...)번째 원소들만 골라서 리스트로 출력하는 프로그램을 작성하라.
+
+list3=list()
+a=input().split(' ')
+
+for i in range(len(a)):
+  if i%3==2:
+    list3.append(a[i])
+print(list3)
