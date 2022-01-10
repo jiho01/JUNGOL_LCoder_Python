@@ -1,0 +1,5 @@
+#문자열을 입력한 후, 문자열을 구성하는 문자를 역순으로 하는 리스트를 출력하는 프로그램을 작성하시오.
+
+char = list(input())
+char.reverse()
+print(char)
