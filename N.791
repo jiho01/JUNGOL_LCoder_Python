@@ -1,0 +1,9 @@
+#두 줄에 걸쳐 숫자 두 개씩을 입력받아, 각 줄의 앞의 숫자를 원소로 하며, 원소의 개수는 뒤의 숫자만큼인 리스트를 만든다.
+#그 이후 두 리스트를 합하여 출력 예와 같이 출력하는 프로그램을 작성하시오.
+
+list=list()
+for i in range(2):
+  a,z=input().split(' ')
+  for i in range(int(z)):
+    list.append(int(a))
+print(list)
